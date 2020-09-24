@@ -1,0 +1,48 @@
+body {
+    background: #f0f0f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logoHead {
+    width: 100px;
+}
+
+#logo {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnCadastrar,
+#btnCarrinho {
+    background: #448adb;
+    border: 0;
+    border-radius: 8px;
+    color: rgb(240, 45, 10);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#oferta,
+#tipoOferta,
+#produtos {
+    border: gray solid 2px;
+    padding: 10px;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mostruário {
+    width: 400px;
+}
